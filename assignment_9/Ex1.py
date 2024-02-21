@@ -14,7 +14,7 @@ maxIndexFinder_in_progress = False
 qrcodeMaker_in_progress = False
 secret_number = None
 # Replace 'YOUR_BOT_TOKEN' with your actual bot token obtained from BotFather
-bot = telebot.TeleBot('6433590779:AAFpMmV483INjhVYNcl0uzJ6O2h2_KG6zyw')
+bot = telebot.TeleBot('Token')
 
 # Handler for the /start command
 @bot.message_handler(commands=['start'])
